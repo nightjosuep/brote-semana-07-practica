@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Brote",
+    "name": "Brote-jmpb",
     "slug": "brote-planificador",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -10,7 +10,10 @@
     "backgroundColor": "#F8F5ED",
     "ios": {
       "bundleIdentifier": "edu.uets.brote.demo",
-      "icon": "./assets/images/icon.png"
+      "icon": "./assets/images/icon.png",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "package": "edu.uets.brote.demo",
@@ -46,7 +49,11 @@
       "reactCompiler": true
     },
     "extra": {
-      "router": {}
-    }
+      "router": {},
+      "eas": {
+        "projectId": "fa6f238c-2c77-4a21-9413-5fbcc35f1608"
+      }
+    },
+    "owner": "night_josuep"
   }
 }
